@@ -1,12 +1,68 @@
-# React + Vite
+# React Machine Coding Interview Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of React components for machine coding interview preparation based on questions from NamasteDev.com.
 
-Currently, two official plugins are available:
+## 🚀 Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+# Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+# Start development server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Open http://localhost:5173 in your browser
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── Components/
+│   ├── Easy/           # Beginner level (15-30 min)
+│   ├── Medium/         # Intermediate level (30-60 min)
+│   └── Hard/           # Advanced level (1-2 hours)
+└── ...
+```
+
+## 🎯 Component Categories
+
+### Easy Level
+
+- **UI Elements**: Button, Spinner, Progress Bar, Tooltip
+- **Forms**: Input Validation, Checkbox Group, File Upload
+- **Data Display**: Table, Pagination, Cards, Lists
+
+### Medium Level
+
+- **Interactive**: Modal, Drag & Drop, Infinite Scroll
+- **Games**: Tic Tac Toe, Memory Game, Quiz App
+- **Data Management**: Todo App, Shopping Cart, Search
+
+### Hard Level
+
+- **Advanced Games**: Chess, Sudoku, Tetris
+- **Complex Apps**: Kanban Board, Code Editor, Dashboard
+- **Performance**: Virtual Scrolling, Lazy Loading
+
+## 🛠 Tech Stack
+
+- React 19
+- Vite
+- TailwindCSS
+- React Router DOM
+
+## 📚 Usage
+
+1. Browse components by difficulty level
+2. Study the implementation
+3. Practice coding them from scratch
+4. Add your own variations
+
+## 🤝 Contributing
+
+Feel free to add new components or improve existing ones!
+
+---
+
+**Happy Coding! 🚀**
